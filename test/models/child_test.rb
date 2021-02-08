@@ -11,10 +11,18 @@ class ChildTest < ActiveSupport::TestCase
  context "Creating a child context" do
    setup do
      create_children
-   end
+    #  create_tasks
+    #  create_chores
+     
+
+    end
 
    teardown do
-     destroy_children
+    # destroy_chores
+    # destroy_tasks
+    destroy_children
+
+
    end
 
    should "have name methods that list first_ and last_names combined" do
