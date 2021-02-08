@@ -17,9 +17,9 @@ class ChoreTest < ActiveSupport::TestCase
     end
 
     teardown do
-      # destroy_children
-      # destroy_tasks
-      # destroy_chores
+      destroy_children
+      destroy_tasks
+      destroy_chores
     end
 
     # should "have a scope to order alphabetically by task name" do
