@@ -15,6 +15,7 @@ class Child < ApplicationRecord
   
     #scopes
     scope :alphabetical, -> { order('last_name, first_name') }
+    
     scope :active, -> { where(active: true) }
   end
   
