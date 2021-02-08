@@ -1,2 +1,6 @@
 class Task < ApplicationRecord
-end
+    # Relationships
+    # -----------------------------
+    has_many :chores
+  end
+  
